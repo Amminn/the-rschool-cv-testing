@@ -74,3 +74,8 @@ You can use this application to see some delicious yummy meals, You can look for
 - Bachelor's degree, Full Stack Web developer / Multimedia  (graduated)
 
 ------------
+
+### Languages:
+- Arabic - native speaker
+- English - B1/B2
+- French - Basic
