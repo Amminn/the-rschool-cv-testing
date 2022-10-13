@@ -65,3 +65,12 @@ You can use this application to see some delicious yummy meals, You can look for
 - [Trading-King](https://amminn.github.io/trading-king/ "Trading-King")
 - [PayAPI](https://amminn.github.io/payapi/ "PayAPI")
 - [Tenzies-Project](https://amminn.github.io/Tenzies-Project/ "Tenzies-Project")
+
+------------
+
+### Courses / Certeficates:
+- RS School. JS/Frontend development course (in progress)
+- The Frontend Developer Career Path from [Scrimba](https://scrimba.com/ "Scrimba") ([certificate](https://scrimba.com/certificate/u6WER6Tr/gfrontend "certificate"))
+- Bachelor's degree, Full Stack Web developer / Multimedia  (graduated)
+
+------------
