@@ -193,3 +193,14 @@ pre code {
 .name {
   color: #080808;
 }
+
+footer {
+  margin-top: auto;
+}
+
+footer p {
+  font-size: 1.1rem;
+  text-align: center;
+  margin-block: 0;
+  margin-top: 4rem;
+}
