@@ -10,6 +10,7 @@
 
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 html {
@@ -32,7 +33,7 @@ h4 {
 h1 {
   font-size: 3.8rem;
   line-height: 49.1px;
-  margin-bottom: 0.4rem;
+  margin-block: 0;
 }
 
 h2 {
@@ -72,6 +73,7 @@ ul {
 .main nav {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 1.5rem;
 }
 
 .main nav ul {
@@ -96,13 +98,6 @@ ul {
   font-size: 2rem;
   padding-inline: 0.5rem;
 }
-
-
-/* .two-col {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-} */
 
 .main::after {
   content: '';
@@ -131,8 +126,41 @@ ul {
   z-index: -1;
 }
 
+main header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+main header .profile-pic {
+  margin-right: 3rem;
+}
+
+main header h2 {
+  margin-top: 0.7rem;
+}
+
 .divider {
   margin-block: 1.5rem;
+}
+
+.father {
+  display: flex;
+  justify-content: space-between;
+}
+
+.father section {
+  width: 50%;
+}
+
+.father section.contact {
+  padding-left: 2rem;
+}
+
+.horizontally-divider {
+  min-height: 100%;
+  width: 1px;
+  background-color: var(--paragraph-clr);
 }
 
 /* .main-info {
