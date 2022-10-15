@@ -98,11 +98,11 @@ ul {
 }
 
 
-.two-col {
+/* .two-col {
   width: 100%;
   display: flex;
   justify-content: space-between;
-}
+} */
 
 .main::after {
   content: '';
@@ -135,9 +135,9 @@ ul {
   margin-block: 1.5rem;
 }
 
-.main-info {
+/* .main-info {
   width: 66%;
-}
+} */
 
 .side-info {
   padding-top: 2rem;
