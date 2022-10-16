@@ -163,19 +163,6 @@ main header h2 {
   background-color: var(--paragraph-clr);
 }
 
-/* .main-info {
-  width: 66%;
-} */
-
-.side-info {
-  padding-top: 2rem;
-  width: 30%;
-}
-
-.side-info ul {
-  padding-left: 1.5rem;
-}
-
 pre {
   margin-block: 0;
 }
