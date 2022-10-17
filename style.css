@@ -126,17 +126,17 @@ ul {
   z-index: -1;
 }
 
-main header {
+header {
   display: flex;
   align-items: center;
   margin-bottom: 1.5rem;
 }
 
-main header .profile-pic {
+header .profile-pic {
   margin-right: 3rem;
 }
 
-main header h2 {
+header h2 {
   margin-top: 0.7rem;
 }
 
@@ -144,16 +144,16 @@ main header h2 {
   margin-block: 1.5rem;
 }
 
-.father {
+.parent-section {
   display: flex;
   justify-content: space-between;
 }
 
-.father section {
+.parent-section section {
   width: 50%;
 }
 
-.father section.contact {
+.parent-section section.contact {
   padding-left: 2rem;
 }
 
@@ -183,6 +183,10 @@ pre code {
 
 footer {
   margin-top: auto;
+}
+
+footer img {
+  width: 60px;
 }
 
 footer p {
