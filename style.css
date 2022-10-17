@@ -126,17 +126,17 @@ ul {
   z-index: -1;
 }
 
-main header {
+header {
   display: flex;
   align-items: center;
   margin-bottom: 1.5rem;
 }
 
-main header .profile-pic {
+header .profile-pic {
   margin-right: 3rem;
 }
 
-main header h2 {
+header h2 {
   margin-top: 0.7rem;
 }
 
@@ -144,16 +144,16 @@ main header h2 {
   margin-block: 1.5rem;
 }
 
-.father {
+.parent-section {
   display: flex;
   justify-content: space-between;
 }
 
-.father section {
+.parent-section section {
   width: 50%;
 }
 
-.father section.contact {
+.parent-section section.contact {
   padding-left: 2rem;
 }
 
@@ -161,19 +161,6 @@ main header h2 {
   min-height: 100%;
   width: 1px;
   background-color: var(--paragraph-clr);
-}
-
-/* .main-info {
-  width: 66%;
-} */
-
-.side-info {
-  padding-top: 2rem;
-  width: 30%;
-}
-
-.side-info ul {
-  padding-left: 1.5rem;
 }
 
 pre {
@@ -198,13 +185,13 @@ footer {
   margin-top: auto;
 }
 
+footer img {
+  width: 60px;
+}
+
 footer p {
   font-size: 1.1rem;
   text-align: center;
   margin-block: 0;
   margin-top: 4rem;
-}
-
-footer .logo {
-  width: 60px;
 }
