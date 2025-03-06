@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css"
+    >
+    <link rel="stylesheet" href="./style.css">
+    <title>cv-html</title>
+  </head>
+  <body>
+    <div class="main">
+      <nav>
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#contact-skills">Contact/Skills</a></li>
+          <li><a href="#code-example">Code Example</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#certificates-courses">Certificates/Courses</a></li>
+        </ul>
+
+        <div class="useful-links">
+          <ul>
+            <li>
+              <a href="https://amminn.github.io/Portfolio/" target="_blank"
+                ><i class="ri-external-link-line"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/amin-benkhaled-3140641b5/"
+                target="_blank"
+                ><i class="ri-linkedin-box-line"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://github.com/Amminn" target="_blank"
+                ><i class="ri-github-line"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <header>
+        <!-- header section -->
+        <div class="profile-pic">
+          <img src="./images/profile-pic.png" alt="my profile picture">
+        </div>
+        <div>
+          <h1 class="">Benkhaled Amin</h1>
+          <h2>Front-end web developer</h2>
+        </div>
+      </header>
+
+      <div class="dvider"><hr></div>
+
+      <main>
+        <section class="sub-section" id="about">
+          <h3>Briefly About Myself:</h3>
+          <p>
+            Web developer started in college as a full-stack/multimedia web
+            developer then specialized more on the Front end by taking the Scrimba
+            career path.
+          </p>
+          <p>
+            Skilled in problem-solving with React, JavaScript, SCSS/CSS,
+            WordPress, MySQL, and PHP Also UI/UX side with Adobe programs and
+            Figma.
+          </p>
+          <p>
+            I enjoy helping others and am fully motivated to progress and expand
+            my skill set, by getting more real projects to gain more experience in
+            the field.
+          </p>
+        </section>
+
+        <section class="parent-section" id="contact-skills">
+          <section class="sub-section">
+            <h3>Skills and Proficiency:</h3>
+            <ul>
+              <li>HTML5, CSS3, SCSS, Tailwind</li>
+              <li>JavaScript, React</li>
+              <li>Git, GitHub</li>
+              <li>PHP, MySQL, PHPMyAdmin</li>
+              <li>UI/UX, Adobe programs, Figma</li>
+            </ul>
+          </section>
+
+          <div class="horizontally-divider"></div>
+
+          <section class="sub-section contact">
+            <h3>Contact</h3>
+            <ul>
+              <li>
+                Portfolio:
+                <a href="https://amminn.github.io/Portfolio/" target="_blank"
+                  >https://amminn.github.io/Portfolio/</a
+                >
+              </li>
+              <li>
+                linkedin:
+                <a
+                  href="https://www.linkedin.com/in/amin-benkhaled-3140641b5/"
+                  target="_blank"
+                  >amin-benkhaled</a
+                >
+              </li>
+              <li>
+                Twitter:
+                <a href="https://twitter.com/?lang=en" target="_blank"
+                  >amin-benkhaled</a
+                >
+              </li>
+              <li>
+                E-mail:
+                <a href="mailto:benkha1ed.amn@gmail.com"
+                  >benkha1ed.amn@gmail.com</a
+                >
+              </li>
+              <li>Discord: Amin#4046</li>
+            </ul>
+          </section>
+        </section>
+
+
+        <section class="sub-section" id="code-example">
+          <h3>Code Example:</h3>
+          <pre>
+            <code>
+  import React from 'react'
+  import {Context} from '../Context'
+
+  function Favorite() {
+  const {favoriteMeal, selectMeal, removeFavorite} = React.useContext(Context)
+
+  const renderFavoriteMeals = favoriteMeal.map(item =&gt; {
+    const {idMeal, strMeal: title, strMealThumb: img} = item
+    return (
+    &lt;div key={idMeal} id={idMeal} className=&quot;favorite-item&quot;&gt;
+    &lt;img className='favorites-img'
+      src={img}
+      alt={`${title} image`}
+      onClick={() =&gt; selectMeal(idMeal)}
+    /&gt;
+    &lt;p className=&quot;remove-btn&quot; onClick={() =&gt; removeFavorite(idMeal)}&gt;remove&lt;/p&gt;
+    &lt;/div&gt;
+    )
+  })
+  return (
+    &lt;section className='favorites'&gt;
+      &lt;div className=&quot;favorites-content&quot;&gt;
+          &lt;h2&gt;Favorites&lt;/h2&gt;
+        &lt;div className=&quot;favorites-container&quot;&gt;
+          {renderFavoriteMeals}
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/section&gt;
+  )
+  }
+
+  export default Favorite
+            </code>
+          </pre>
+          <p>
+            This sample code is one of many other components that represent the
+            <a href="https://amminn.github.io/meals-application/" target="_blank"
+              >Meals App</a
+            >
+            This app will allow you to view some mouthwatering dishes. Along with saving and a search bar feature to look up for more meals and their ingredients.
+          </p>
+          <h4 id="project">Some Other Projects:</h4>
+          <ul>
+            <li>
+              <a href="https://amminn.github.io/trading-king/" target="_blank"
+                >Trading-King</a
+              >
+            </li>
+            <li>
+              <a href="https://amminn.github.io/payapi/" target="_blank"
+                >PayAPI</a
+              >
+            </li>
+            <li>
+              <a href="https://amminn.github.io/Tenzies-Project/" target="_blank"
+                >Tenzies-Project</a
+              >
+            </li>
+          </ul>
+        </section>
+
+        <section id="certificates-courses">
+          <h3>Courses / Certificates:</h3>
+          <ul>
+            <li>RS School. JS/Frontend development course (in progress)</li>
+            <li>
+              The Frontend Developer Career Path from Scrimba (<a
+                href="https://scrimba.com/certificate/u6WER6Tr/gfrontend"
+                target="_blank"
+                >certificate</a
+              >)
+            </li>
+            <li>
+              Bachelor’s degree, Full Stack Web developer / Multimedia (graduated)
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Languages:</h3>
+          <ul>
+            <li>Arabic - native speaker</li>
+            <li>English - B1/B2</li>
+            <li>French - Basic</li>
+          </ul>
+        </section>
+     </main>
+
+    <footer>
+      <p>
+        Made With ❤ by
+        <a href="#" target="_blank">Amminn</a>
+        for
+        <a href="https://wearecommunity.io/events/rs-js-en-2022q3" target="_blank">
+          <img
+            class="logo"
+            src="https://d3373sevsv1jc.cloudfront.net/uploads/communities_production/page_part/167760/A521EF15FAB64E289F97A3A112ACCA52.png"
+            alt="logo of the rs school company">
+        </a>
+        in October 2022
+      </p>
+    </footer>
+  </div>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
+
+</body>
+</html>
